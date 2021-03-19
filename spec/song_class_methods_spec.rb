@@ -41,7 +41,8 @@ describe "Song Class Methods" do
     end
   end
 
-  describe '.find_or_create_by_name' do
+  describe '.find_
+  or_create_by_name' do
     it 'invokes .find_by_name and .create_by_name instead of repeating code' do
       expect(Song).to receive(:find_by_name).at_least(1).times
       expect(Song).to receive(:create_by_name).at_least(1).times
